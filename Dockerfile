@@ -4,4 +4,4 @@ RUN useradd -ms /bin/bash admin
 USER admin
 COPY app /app
 WORKDIR /app
-CMD ["sudo", "python", "app.py"] 
+CMD ["python", "app.py"] 
